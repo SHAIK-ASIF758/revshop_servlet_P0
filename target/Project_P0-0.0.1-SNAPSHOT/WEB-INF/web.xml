@@ -89,4 +89,14 @@
     <servlet-name>SellerShowProducts</servlet-name>
     <url-pattern>/SellerShowProducts</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SellerDeleteProductServlet</display-name>
+    <servlet-name>SellerDeleteProductServlet</servlet-name>
+    <servlet-class>SellerController.SellerDeleteProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SellerDeleteProductServlet</servlet-name>
+    <url-pattern>/SellerDeleteProductServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
